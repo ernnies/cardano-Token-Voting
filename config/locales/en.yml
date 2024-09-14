@@ -1,0 +1,17 @@
+# English strings go here for Rails i18n
+en:
+  label_token_votes: "Token votes"
+  label_your_votes: "Your votes"
+  label_my_votes: "My votes"
+  label_my_tokens: "My tokens"
+  label_my_withdrawals: "My withdrawals"
+  label_transactions: "Transactions"
+  activerecord:
+    attributes:
+      token_vote:
+        address: 'Address'
+
+  field_amount: 'Amount'
+  field_address: 'Address'
+  field_token_type: 'Token'
+

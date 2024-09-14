@@ -1,0 +1,19 @@
+  <i>Token types define tokens e.g. BTC, BCH, LTC that can be used to vote.
+  Checkpoints define issue statuses, which are awarded with share of tokens votes.
+  At least 1 token type and 1 checkpoint is necessary to use this plugin.</i>
+</div>
+
+<div class="contextual">
+  <%= link_to "New token type", new_token_type_path, :class => 'icon icon-add' %>
+</div>
+
+<h3>Token types</h3>
+<div>
+  <%= render partial: 'settings/token_types' %>
+</div>
+
+<h3>Checkpoints</h3>
+<div>
+  <p><%= render partial: 'settings/checkpoints' %></p>
+</div>
+

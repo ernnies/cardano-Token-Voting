@@ -1,0 +1,7 @@
+$('#token_votes-flash').html('<%= j(render_flash_messages) %>');
+<% flash.discard %>
+$('#token_votes-table').html('<%= j(render :partial => 'issues/token_votes/index') %>');
+<% if @token_vote.errors.empty? %>
+  $('#token_vote_token').focus();
+<% end %>
+$('#new-token-vote-form').show();
